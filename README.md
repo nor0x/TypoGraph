@@ -1,6 +1,8 @@
 
 # 🟩🟩🟩 TypoGraph
 
+[![Deploy to GitHub Pages](https://github.com/nor0x/TypoGraph/actions/workflows/main.yml/badge.svg)](https://github.com/nor0x/TypoGraph/actions/workflows/main.yml)
+
 
 **TypoGraph** lets you render any text like a GitHub contribution graph.
 
