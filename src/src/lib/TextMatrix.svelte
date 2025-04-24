@@ -4,7 +4,7 @@
   import { fade } from "svelte/transition";
 
 
-  let text = "";
+  let text = window.location.pathname.split("/").pop() || "";
   let matrix = [];
   const colors = ["#eeeeee", "#9be9a8", "#40c463", "#30a14e", "#216e39"];
   const rows = 7;
@@ -613,7 +613,6 @@
   };
 
   const getTextMatrix = () => {
-    console
     const newMatrix = Array(rows)
       .fill(null)
       .map(() => Array(cols).fill({ active: false, color: colors[0] }));
@@ -687,7 +686,6 @@
         } else {
           matrixScale = 1; // Reset scale for larger screens
         }
-        console.log("Matrix scale updated:", matrixScale);
       }
     };
 
