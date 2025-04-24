@@ -716,7 +716,7 @@
   >
     <div
       class="matrix-grid grid gap-0.5"
-      style="grid-template-columns: repeat(52, 10px); transform: scale(var(--matrix-scale)); transform-origin: top left;"
+      style="grid-template-columns: repeat(52, 10px);"
     >
       {#each matrix as row, rowIndex}
         {#each row as cell, colIndex}
