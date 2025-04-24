@@ -1,0 +1,34 @@
+{
+  "hash": "8913e624",
+  "configHash": "5d72507e",
+  "lockfileHash": "5f4b7508",
+  "browserHash": "bff9ecf3",
+  "optimized": {
+    "html2canvas": {
+      "src": "../../node_modules/html2canvas/dist/html2canvas.esm.js",
+      "file": "html2canvas.js",
+      "fileHash": "4b4f39c6",
+      "needsInterop": false
+    },
+    "svelte": {
+      "src": "../../node_modules/svelte/src/index-client.js",
+      "file": "svelte.js",
+      "fileHash": "596d29fa",
+      "needsInterop": false
+    },
+    "svelte/transition": {
+      "src": "../../node_modules/svelte/src/transition/index.js",
+      "file": "svelte_transition.js",
+      "fileHash": "b1cd8ebd",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-WQFPGYVT": {
+      "file": "chunk-WQFPGYVT.js"
+    },
+    "chunk-RGIOIEUU": {
+      "file": "chunk-RGIOIEUU.js"
+    }
+  }
+}
