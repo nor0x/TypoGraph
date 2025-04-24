@@ -21,7 +21,7 @@
 
 ## 🚀 Live Demo
 
-Try it out here 👉  https://nor0x.github.io/TypoGraph
+Try it out here 👉  https://nor0x.github.io/TypoGraph/DEMO
 
 ---
 
